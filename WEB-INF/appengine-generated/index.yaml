@@ -1,0 +1,23 @@
+indexes:
+- kind: "Photo"
+  properties:
+  - name: "active"
+    direction: asc
+  - name: "uploadTime"
+    direction: desc
+- kind: "Photo"
+  properties:
+  - name: "active"
+    direction: asc
+  - name: "shared"
+    direction: asc
+  - name: "ownerId"
+    direction: asc
+- kind: "Comment"
+  properties:
+  - name: "ownerId"
+    direction: asc
+  - name: "photoId"
+    direction: asc
+  - name: "timestamp"
+    direction: desc
